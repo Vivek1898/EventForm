@@ -20,7 +20,7 @@ const Form = () => {
 const  formData = {Name,Email,Mobile,Whatsapp,Institute,Branch,Year};
 console.log(formData);
 
- axios.post("https://sheet.best/api/sheets/1b1a7f92-1b0f-49a1-bd5e-a3510daffb9b",formData)
+ axios.post("",formData)
  .then((response)=>{
    console.log(response);
  });
